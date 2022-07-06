@@ -1,0 +1,32 @@
+{
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "format": "prettier --write \"{,!(node_modules|dist|build)/**/}*.*\"",
+    "lint:js": "next lint",
+    "lint:css": "stylelint --fix \"{,!(node_modules|dist|build)/**/}*.css*\" \"{,!(node_modules|dist|build)/**/}*.scss*\""
+  },
+  "dependencies": {
+    "@chakra-ui/icons": "^1.1.7",
+    "@chakra-ui/react": "^1.8.6",
+    "@emotion/css": "^11.7.1",
+    "@emotion/react": "^11",
+    "@emotion/styled": "^11",
+    "axios": "^0.26.1",
+    "framer-motion": "^6",
+    "next": "12.1.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "eslint": "8.11.0",
+    "eslint-config-next": "12.1.0",
+    "prettier": "^2.4.1",
+    "stylelint": "^13.13.1",
+    "stylelint-config-prettier": "^9.0.2",
+    "stylelint-config-recommended-scss": "^4.3.0",
+    "stylelint-order": "^4.1.0",
+    "stylelint-scss": "^3.21.0"
+  }
+}

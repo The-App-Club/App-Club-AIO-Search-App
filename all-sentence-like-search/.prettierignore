@@ -1,0 +1,7 @@
+.gitkeep
+*ico
+yarn.lock
+.gitignore
+.prettierignore
+.stylelintignore
+public/images
